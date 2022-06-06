@@ -1,0 +1,81 @@
+/* Fill CSS here */
+h1{
+    text-align: center;
+    color: rgb(40,104,163);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    background-color:white;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+}
+input{
+    padding: 5px 10px 5px 10px;
+}
+select{
+    padding: 5px 10px 5px 10px;
+}
+table{
+    margin-left: 550px;
+    margin-top: -500px;
+  
+  
+   
+    color: white;
+   
+   
+}
+th{
+    background-color:rgb(40,104,163);
+  
+    padding: 10px 20px 10px 20px;
+    border-collapse: separate;
+    font-size: 16px;
+}
+
+tbody{
+    color: white;
+    background-color: rgb(40,104,163);
+    padding: 16px;
+  
+    font-size: 16px;
+   font-weight: lighter;
+   text-align: center;
+ 
+ 
+   font-family: sans-serif;
+    
+   
+   
+}
+form>input:last-child{
+    background-color: rgb(40,104,163);
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-weight: bold;
+   font-size: 18px;
+}
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: -15px;
+   
+   
+}
+#delbtn{
+    border-radius: 5px;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+}
